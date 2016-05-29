@@ -1,0 +1,25 @@
+/* package whatever; // don't place package name! */
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+/* Name of the class has to be "Main" only if the class is public. Ejemplo de fechas*/
+class Ideone
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+		Date fechaInicial=new Date(1951, 5, 25);
+		Date fechaFinal=new Date(2012, 7 ,23);
+		
+long fechaInicialMs = fechaInicial.getTime();
+long fechaFinalMs = fechaFinal.getTime();
+long diferencia = fechaFinalMs - fechaInicialMs;
+double dias = Math.floor(diferencia / (1000 * 60 * 60 * 24));
+System.out.println ((int)dias);
+	
+		
+	}
+
+}

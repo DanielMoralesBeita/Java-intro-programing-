@@ -1,0 +1,29 @@
+/* package whatever; // don't place package name! */
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+/* Name of the class has to be "Main" only if the class is public. */
+class Ideone
+{
+	static void impreme(String cadena)
+	{
+		System.out.println ( cadena);
+	}
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+		String river	="Mississippi";
+		String A;
+		A=river.toLowerCase();
+		impreme(A);
+A=river.toUpperCase();
+		impreme(A);
+		
+		A=river.toUpperCase().toLowerCase();
+		impreme(A);
+		
+	}
+	
+}

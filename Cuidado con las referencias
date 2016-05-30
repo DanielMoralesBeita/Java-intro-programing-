@@ -1,0 +1,5 @@
+En java se pasar las referencias tener cuidado con 
+
+Se pasar las referencias del objecto.
+objecto a=new objecto
+objeto b=a
